@@ -61,13 +61,6 @@ const Navbar = () => {
                     Portfolio
                     </a> 
                     <a 
-                        href="#blogs"
-                        className="cursor-pointer hover:text-custom-hover"
-                        onClick={handleNavClick}
-                    > 
-                    Blogs
-                    </a>  
-                    <a 
                         href="#contact"
                         className="cursor-pointer hover:text-custom-hover"
                         onClick={handleNavClick}
@@ -75,16 +68,6 @@ const Navbar = () => {
                     Contact
                     </a>        
                 </div>
-          
-            {/* <ul className="hidden font-sans md:flex gap-10 text-m font-medium pr-8">
-                <li className="cursor-pointer hover:text-custom-hover">Home</li>
-                <li className="cursor-pointer hover:text-custom-hover">About</li>
-                <li className="cursor-pointer hover:text-custom-hover">Services</li>
-                <li className="cursor-pointer hover:text-custom-hover">Portfolio</li>
-                <li className="cursor-pointer hover:text-custom-hover">Blogs</li>
-                <li className="cursor-pointer hover:text-custom-hover">Contact</li>
-            </ul> */}
-
 {/* Mobile Menu Button  */}
 
             <button
@@ -99,7 +82,7 @@ const Navbar = () => {
 
 {/* Mobile Menu  */}
             {open && ( 
-                <div  className=" font-sans absolute top-16 left-0 w-full bg-black flex flex-col text-left pl-6 gap-4 py-4 md:hidden ">
+                <div  className=" font-sans absolute top-22 left-0 w-full bg-black flex flex-col text-center pl-6 gap-4 py-4 md:hidden ">
                 <a 
                     href="#home"
                     className="cursor-pointer hover:text-custom-hover"
@@ -128,13 +111,6 @@ const Navbar = () => {
                  > 
                  Portfolio
                 </a> 
-                 <a 
-                    href="#blogs"
-                    className="cursor-pointer hover:text-custom-hover"
-                    onClick={handleNavClick}
-                 > 
-                 Blogs
-                </a>  
                  <a 
                     href="#contact"
                     className="cursor-pointer hover:text-custom-hover"
