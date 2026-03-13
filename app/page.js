@@ -1,10 +1,12 @@
 import Image from "next/image";
+import Hero from "@/Components/Hero";
+import About from "@/Components/About";
 
 export default function Home() {
    return (
     <div> 
-      <p>Welcome to Zip Wool!</p>
+     <Hero />
+     <About />
     </div>
   )
-
 }

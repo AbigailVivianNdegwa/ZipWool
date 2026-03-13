@@ -6,6 +6,14 @@
 }
 
 @theme inline {
+  --color-custom-hover: #bb7a5e ;
+  --color-custom-brown: #3e1b0d ;
+  --color-custom-orange: #fc703c ;
+  --color-custom-cherry: #5d0703 ;
+  --color-custom-cream: #f4f3e6 ;
+  --color-custom-peach: #ffa175 ;
+  
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);

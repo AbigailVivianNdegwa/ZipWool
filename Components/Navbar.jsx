@@ -33,7 +33,7 @@ const Navbar = () => {
             {/* Desktop Menu  */}
                  <div  className="hidden font-sans md:flex gap-10 text-m font-medium pr-8">
                     <a 
-                        href="#home"
+                        href="#hero"
                         className="cursor-pointer hover:text-custom-hover"
                         onClick={handleNavClick}
                     > 
@@ -84,7 +84,7 @@ const Navbar = () => {
             {open && ( 
                 <div  className=" font-sans absolute top-22 left-0 w-full bg-black flex flex-col text-center pl-6 gap-4 py-4 md:hidden ">
                 <a 
-                    href="#home"
+                    href="#hero"
                     className="cursor-pointer hover:text-custom-hover"
                     onClick={handleNavClick}
                  > 
@@ -119,14 +119,6 @@ const Navbar = () => {
                  Contact
                 </a>        
             </div>
-                // <ul className="absolute top-16 left-0 w-full bg-black flex flex-col items-center gap-4 py-4 md:hidden">
-                //     <li className="cursor-pointer hover:text-blue-500">Home</li>
-                //     <li className="cursor-pointer hover:text-blue-500">About</li>
-                //     <li className="cursor-pointer hover:text-blue-500">Services</li>
-                //     <li className="cursor-pointer hover:text-blue-500">Portfolio</li>
-                //     <li className="cursor-pointer hover:text-blue-500">Blogs</li>
-                //     <li className="cursor-pointer hover:text-blue-500">Contact</li>
-                //     </ul>
             )} 
             
         </div>
